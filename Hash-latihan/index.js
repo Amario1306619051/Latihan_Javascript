@@ -1,11 +1,12 @@
 function ageDistribution(persons) {
     let result = new Map();
-    // TODO: answer here
-    for (let person of persons) {
-        if (result.has(person.age)) {
-            result.set(person.age, result.get(person.age) + 1);
-        }else {
-            result.set(person.age, 1)
+    let n = 1;
+    for(let k of persons){
+        if(result.has(k.Map)){
+            result.set(k.age, n + 1);
+        }
+        else{
+            result.set(k.age, n)
         }
     }
     return result
@@ -13,15 +14,10 @@ function ageDistribution(persons) {
 
 function groupByAge(persons) {
     let result = new Map();
-    // TODO: answer here
-    for (let person of persons) {
-        if (result.has(person.age)) {
-            result.get(person.age).push(person);
-        }else {
-            result.set(person.age,[person]);
-        }
+    for(let k of persons){
+        
     }
-    return result
+
 }
 
 let people = [
@@ -33,4 +29,4 @@ let people = [
 ]
 
 console.log(ageDistribution(people));
-console.log(groupByAge(people));
+//console.log(groupByAge(people));

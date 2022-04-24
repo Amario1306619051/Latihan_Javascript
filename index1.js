@@ -1,28 +1,36 @@
-let alexanderArnold = [
-    {
-        Nama : 'Amario',
-        Betul: 10,
-        Salah: 0,
-        Kosong:0
-    },
-    {
-        Nama: "Pridana",
-        Betul: 8,
-        Salah: 2,
-        Kosong: 0
-    },
-    {
-        Nama: "Muhlis",
-        Betul:7,
-        Salah:1,
-        Kosong:2
-    },
-    {
-        Nama: "Wildan",
-        Betul: 7,
-        Salah: 2,
-        Kosong: 1
+function ageDistribution(persons) {
+    let result = new Map();
+    // TODO: answer here
+    for (let person of persons) {
+        if (result.has(person.age)) {
+            result.set(person.age, result.get(person.age) + 1);
+        }else {
+            result.set(person.age, 1)
+        }
     }
+    return result
+}
+
+function groupByAge(persons) {
+    let result = new Map();
+    // TODO: answer here
+    for (let person of persons) {
+        if (result.has(person.age)) {
+            result.get(person.age).push(person);
+        }else {
+            result.set(person.age,[person]);
+        }
+    }
+    return result
+}
+
+let people = [
+    { name: "Bob", age: 21 },
+    { name: "Sam", age: 28 },
+    { name: "Ann", age: 21 },
+    { name: "Joe", age: 22 },
+    { name: "Ben", age: 28 },
 ]
 
-alexanderArnold
+console.log(ageDistribution(people));
+console.log(groupByAge(people));
