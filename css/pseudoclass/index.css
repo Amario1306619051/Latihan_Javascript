@@ -20,6 +20,7 @@
     color: purple;
 }
 
-ul li:first-child:hover{
+p:first-child{
     font-size: 30px;
+    color: aqua;
 }
