@@ -38,3 +38,5 @@ console.log(ageDistribution(people));
 console.log(ageDistribution(people));
 console.log(ageDistribution(people));
 console.log(ageDistribution(people));
+console.log(ageDistribution(people));
+console.log(ageDistribution(people));
