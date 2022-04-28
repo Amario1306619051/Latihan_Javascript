@@ -32,5 +32,6 @@ let people = [
     { name: "Ben", age: 28 },
 ]
 
+
 console.log(ageDistribution(people));
 console.log(groupByAge(people));
