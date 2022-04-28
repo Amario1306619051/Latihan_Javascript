@@ -12,7 +12,7 @@ class Stack {
           throw "stack overflow";
         }
         this.data[(this.top += 1)] = elemen;
-      }
+    }
 }
 
 let stack = new Stack();
