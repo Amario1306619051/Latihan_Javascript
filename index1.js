@@ -34,3 +34,5 @@ let people = [
 
 console.log(ageDistribution(people));
 console.log(groupByAge(people));
+console.log(ageDistribution(people));
+console.log(ageDistribution(people));
