@@ -41,3 +41,6 @@ class TextEditor {
     }
 }
 
+let te = new TextEditor()
+te.redo()
+console.log(te.data.length)
