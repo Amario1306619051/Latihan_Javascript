@@ -5,13 +5,16 @@
 
 .satu{
     background-color: salmon;
+    float:left;
 }
 
 .dua{
     background-color: limegreen;
+    float:left;
 }
 
 .tiga{
     background-color: lightskyblue;
+    float: right;
 }
 
