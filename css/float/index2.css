@@ -1,0 +1,20 @@
+.satu{
+    background-color: salmon;
+    float:left;
+    width: 100px;
+    height: 100px;
+}
+
+.dua{
+    background-color: limegreen;
+    float:left;
+    width: 100px;
+    height: 100px;
+}
+
+.tiga{
+    background-color: lightskyblue;
+    float: right;
+    width: 100px;
+    height: 100px;
+}
