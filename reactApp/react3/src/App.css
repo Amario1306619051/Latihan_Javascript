@@ -18,4 +18,10 @@
   height: 500px;
   margin: auto;
   border-bottom: 3px solid black;
+  flex-direction: row;
+}
+
+.haaland{
+  width: 55%;
+  height: 350px;
 }

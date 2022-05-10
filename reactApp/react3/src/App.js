@@ -1,4 +1,5 @@
 import './App.css';
+import haaland from './haaland.jpeg';
 
 import React from 'react'
 
@@ -31,6 +32,16 @@ export const  News1 = () => {
 }
 
 
+export const GambarHaaland = () => {
+  return (
+    <div>
+      <img class='haaland' src={haaland} />
+    </div>
+  )
+}
+
+
+
 
 function App() {
   return (
@@ -38,6 +49,7 @@ function App() {
       <h1>Breaking news</h1>
       <div className='Blok1'>
         <News1 />
+        <GambarHaaland />
       </div>
     </div>
   );
