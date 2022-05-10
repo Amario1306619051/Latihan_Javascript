@@ -1,5 +1,4 @@
 import "./TodoList.css"
-import ".././Todo/Todo.js"
 import Todo from ".././Todo/Todo.js"
 
 const TodoList = () =>{
