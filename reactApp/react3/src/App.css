@@ -6,9 +6,16 @@
 .News1{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   width: 400px;
-  height: 300px;
-  margin: 10px 10px 10px 10px;
+  margin: 10px10px 10px 10px;
   padding: 10px;
-  border: 2px dotted black;
-  text-align: left;
+  border-right: 2px dotted black;
+  text-align: justify;
+}
+
+.Blok1{
+  background-color: rgb(215, 214, 214);
+  width: 95%;
+  height: 500px;
+  margin: auto;
+  border-bottom: 3px solid black;
 }
