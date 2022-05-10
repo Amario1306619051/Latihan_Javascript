@@ -1,4 +1,4 @@
-.App li ul{
+.App > ul{
     margin:auto;
     padding: 10px;
     border: 2px solid black;
