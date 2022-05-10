@@ -20,6 +20,7 @@ function App() {
   return (
     <div className="App">
       <h1>Breaking news</h1>
+      <News1 />
     </div>
   );
 }
