@@ -3,9 +3,15 @@
 }
 .dua{
     background-color: bisque;
+    position: static;
+    top: 30px;
 }
 .tiga{
     background-color: cyan;
+}
+.empat{
+    background-color: blue;
+    position: relative;
 }
 div{
     height: 150px;
