@@ -12,6 +12,20 @@ export const  News1 = () => {
       <p>Raksasa Liga Inggris itu siap untuk mengaktifkan klausul pelepasan sang bomber 
         sebesar 63 juta pounds atau setara Rp1,1 triliun.
       </p>
+      <p>
+        Di musim panas 2022 ini, klausul rilis Haaland akan aktif. 
+        Alhasil banyak klub papan atas Eropa berlomba-lomba untuk 
+        menggaet striker Timnas Norwegia tersebut.
+      </p>
+      <p>
+        Manchester City baru-baru ini resmi mengumumkan 
+        bahwa mereka pemenang transfer Haaland. Mereka telah 
+        mengunci transfer pemain berusia 22 tahun tersebut.
+      </p>
+      <p>
+      Melalui akun twitter resmi mereka, Manchester City sudah mengonfirmasi bahwa
+       mereka telah mencapai kesepakatan dengan Dortmund untuk transfer Haaland.
+      </p>
     </div>
   )
 }
