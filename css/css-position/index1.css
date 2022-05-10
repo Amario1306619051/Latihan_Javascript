@@ -3,17 +3,22 @@
 }
 .dua{
     background-color: bisque;
-    position: static;
-    top: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 .tiga{
     background-color: cyan;
 }
-.empat{
-    background-color: blue;
-    position: relative;
-}
 div{
     height: 150px;
     width: 150px;
+    margin: auto; 
+}
+
+.container{
+    border: 2px solid black;
+    width: 650px;
+    height: 650px;
+    position: relative;
 }
