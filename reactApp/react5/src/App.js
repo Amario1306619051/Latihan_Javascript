@@ -26,11 +26,17 @@ class Home extends React.Component {
   }
 }
 
-class Props extends Component {
+class Props extends React.Component {
+  ZeniusSaingannyaRuangGuru = () => {
+    return(
+      this.setState({name: 'zemius'})
+    )
+  }
   render() {
     return (
       <div>
         <h2> {this.props.name}</h2>
+        <button onClick={this.ZeniusSaingannyaRuangGuru} > Tombol2 </button>
       </div>
     )
   }
