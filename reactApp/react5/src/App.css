@@ -3,5 +3,7 @@
   size: 100px;
   background-color: rgb(176, 176, 176);
   text-align: center;
+  justify-content: center;
+  height: 100px;
 }
 
