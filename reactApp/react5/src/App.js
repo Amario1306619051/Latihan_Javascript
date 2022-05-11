@@ -27,27 +27,20 @@ class Home extends React.Component {
 }
 
 class Props extends React.Component {
-  ZeniusSaingannyaRuangGuru = () => {
-    return(
-      this.setState({name: 'zemius'})
-    )
-  }
   render() {
     return (
       <div>
-        <h2> {this.props.name}</h2>
-        <button onClick={this.ZeniusSaingannyaRuangGuru} > Tombol2 </button>
+        <h2> Hari ini adalah lesan : {this.props.name} </h2>
       </div>
     )
   }
 }
 
-
 function App() {
   return (
     <div className="App">
         <Home />
-        <Props name = {this.state.name} />
+        <Props />
     </div>
   );
 }
