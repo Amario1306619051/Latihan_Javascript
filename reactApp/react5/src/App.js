@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
 
 import React from 'react'
-
-export const Header = () => {
-  return (
-    <div className='satu'>
-      <h1>Breaking news</h1>
+class Home extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      name: 'Ruang Guru'
+    }
+  }
+  render() {
+    return (
+    <div>
+      <p> {this.state.name} </p>
+      <button> Gabener </button>
     </div>
-  )
+    )
+  }
 }
-
 
 function App() {
   return (
     <div className="App">
-      <div className='Kepala'>
-        <Header />
-      </div>
+        <Home />
     </div>
   );
 }
