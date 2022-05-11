@@ -24,4 +24,7 @@
 .haaland{
   width: 40%;
   height: 350px;
+  position: absolute;
+  right: 550px;
+  top: 0px;
 }
