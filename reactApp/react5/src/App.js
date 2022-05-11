@@ -5,14 +5,21 @@ class Home extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      name: 'Ruang Guru'
+      name: 0
     }
   }
+
+  ZeniusSaingannyaRuangGuru () {
+    return(
+      this.setState({name: gilak})
+    )
+  }
+
   render() {
     return (
     <div>
       <p> {this.state.name} </p>
-      <button> Gabener </button>
+      <button onClick={this.ZeniusSaingannyaRuangGuru} > Gabener </button>
     </div>
     )
   }
