@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="App">
         <Home />
-        <Props name = "ngeLesin Ajah" />
+        <Props name = {this.state.name} />
     </div>
   );
 }
