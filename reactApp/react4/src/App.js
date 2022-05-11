@@ -1,18 +1,22 @@
 import './App.css';
 import React from 'react'
 
-
-export default function Header() {
+export const Header = () => {
   return (
-    <div>App</div>
+    <div>
+      <header>
+        Jumlah Tekan pada button 
+      </header>
+    </div>
   )
 }
+
 
 
 function App() {
   return (
     <div className="App">
-
+      <Header />
     </div>
   );
 }
