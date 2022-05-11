@@ -11,7 +11,7 @@ class Home extends React.Component {
 
   ZeniusSaingannyaRuangGuru () {
     return(
-      this.setState({name: gilak})
+      this.setState({name: 'zemius'})
     )
   }
 
