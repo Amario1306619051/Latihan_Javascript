@@ -9,12 +9,13 @@ class Home extends React.Component {
     }
   }
 
-  ZeniusSaingannyaRuangGuru () {
+  ZeniusSaingannyaRuangGuru = () => {
     return(
       this.setState({name: 'zemius'})
     )
   }
 
+  
   render() {
     return (
     <div>
@@ -24,6 +25,15 @@ class Home extends React.Component {
     )
   }
 }
+
+export class Props extends Component {
+  render() {
+    return (
+      <div>App</div>
+    )
+  }
+}
+
 
 function App() {
   return (
