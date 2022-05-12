@@ -15,7 +15,7 @@ export default class randomNumber extends Component {
       <div>
           <h1> Random Number Generator </h1>
           <h2> Generate the random number : {this.state.number} </h2>
-          <button onClick={() => {this.setState({number: Math.random*100})}}> Generate</button>
+          <button onClick={() => {this.setState({number: (Math.random)})}}> Generate</button>
       </div>
     )
   }
