@@ -8,12 +8,28 @@ class tombol extends Component {
         }
     }
 
+    Tambah = () => {
+        this.setState(
+            {
+                number: this.state.number + 1
+            }
+        )
+    }
+
+    Kurang = () => {
+        this.setState(
+            {
+                number: this.state.number - 1
+            }
+        )
+    }
+
   render() {
     return (
       <div>
           <h2>Angka : {this.state.number} </h2>
-          <button> + </button>
-          <button> - </button>
+          <button onClick={this.Kurang}> - </button>
+          <button onClick={this.Tambah}> + </button>
       </div>
     )
   }
