@@ -6,12 +6,16 @@ class Message extends Component {
         this.state = {
             message: 'Welcome Visitor'
         }
-    }    
+    }
+
+    AlexanderArnold = () =>{
+        this.setState({message: 'Thankyou for Subscribe'})
+    }
   render() {
     return (
       <div>
           <h1> {this.state.message} </h1>
-          <button> Subscribe </button>
+          <button onClick={this.AlexanderArnold}> Subscribe </button>
       </div>
     )
   }
