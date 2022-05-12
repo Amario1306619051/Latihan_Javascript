@@ -1,4 +1,5 @@
 import './App.css';
+import Tombol from "./component/tombol"
 
 function App() {
   return (
