@@ -8,7 +8,7 @@ export default class manyincrements extends Component {
         }
     }
 
-    oneIncrement = () => {
+    OneIncrement = () => {
         this.setState({ count: this.state.count + 1})
     }
 
@@ -16,7 +16,7 @@ export default class manyincrements extends Component {
     return (
       <div>
           <h1>{this.state.count}</h1>
-          <button onClick={() => this.oneIncrement}> Increment </button>
+          <button onClick={this.OneIncrement}> Increment </button>
       </div>
     )
   }
