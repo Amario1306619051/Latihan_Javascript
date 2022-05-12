@@ -7,10 +7,15 @@ export default class count extends Component {
             count: 0 
         }
     }
+
+    Nambah = () => {
+        this.setState({count: this.state.count + 1})
+    }
   render() {
     return (
-      <div>
-          
+      <div> 
+          <h3>{this.state.count}</h3>
+          <button onClick={this.Nambah}> Add Count number</button>
       </div>
     )
   }
