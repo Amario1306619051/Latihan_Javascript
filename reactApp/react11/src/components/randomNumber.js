@@ -17,7 +17,6 @@ export default class randomNumber extends Component {
         )
     }
 
-
   render() {
     return (
       <div>
