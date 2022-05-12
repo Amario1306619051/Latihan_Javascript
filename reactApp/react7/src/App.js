@@ -14,6 +14,7 @@ export class App extends React.Component {
       <div className='App'>
         <h1>Hello World</h1>
         <greetings />
+        <satu />
       </div>
 
     )
