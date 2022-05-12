@@ -23,7 +23,7 @@ export default class manyincrements extends Component {
     return (
       <div>
           <h1> {this.state.count}</h1>
-          <button onClick={() => this.fiveIncrement}> Increment </button>
+          <button onClick={() => this.oneIncrement}> Increment </button>
       </div>
     )
   }
