@@ -9,13 +9,21 @@ export default class manyincrements extends Component {
     }
 
     oneIncrement = () => {
+        this.setState({ count: this.state.count})
+    }
 
+    fiveIncrement = () => {
+        this.oneIncrement()
+        this.oneIncrement()
+        this.oneIncrement()
+        this.oneIncrement()
+        this.oneIncrement()
     }
   render() {
     return (
       <div>
-          <h1> Hitung Hitugan</h1>
-          <button onClick={() =>}> Increment </button>
+          <h1> {this.state.count}</h1>
+          <button onClick={() => this.fiveIncrement}> Increment </button>
       </div>
     )
   }
