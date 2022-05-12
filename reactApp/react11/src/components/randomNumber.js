@@ -12,7 +12,7 @@ export default class randomNumber extends Component {
     AngkaAcak = () => {
         return(
             this.setState({
-                number: Math.random()*100
+                number: Math.floor(Math.random()*100)
             })
         )
     }
