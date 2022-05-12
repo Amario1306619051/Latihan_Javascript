@@ -5,7 +5,10 @@ import satu from "./components/greetings"
 export class App extends Component {
   render() {
     return (
-      <satu />
+      <div className='App'>
+        <satu />
+      </div>
+
     )
   }
 }
