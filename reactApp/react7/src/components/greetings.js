@@ -1,6 +1,6 @@
 import React from 'react'
 
-const greetings = (props) => {
+const Greetings = (props) => {
   return (
     <div>
       Hello {this.props.name} you are form {this.props.country}
@@ -8,4 +8,4 @@ const greetings = (props) => {
   )
 }
 
-export default greetings;
+export default Greetings;
