@@ -9,7 +9,7 @@ export default class manyincrements extends Component {
     }
 
     OneIncrement = () => {
-        this.setState({ count: this.state.count + 1})
+        this.setState((params) => { count: params + 1})
     }
 
     FiveIncrement = () => {
@@ -19,6 +19,7 @@ export default class manyincrements extends Component {
         this.OneIncrement()
         this.OneIncrement()
     }
+
 
   render() {
     return (
