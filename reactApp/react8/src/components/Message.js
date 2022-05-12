@@ -9,7 +9,16 @@ class Message extends Component {
     }
 
     AlexanderArnold = () =>{
-        this.setState({message: 'Thankyou for Subscribe'})
+        number = 0;
+
+        if (number % 2 == 0){
+            this.setState({message: 'Thankyou for Subscribe'})
+            number += 1
+        }
+        else if (number %2 != 0){
+            this.setState({message: "Odd Subscriber"})
+            number += 1
+        }    
     }
   render() {
     return (
