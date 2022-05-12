@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react'
-import Satu from "./components/greetings"
+import Satu from "./components/Greetings.js"
 
 
 export class App extends React.Component {
@@ -8,7 +8,8 @@ export class App extends React.Component {
     return (
       <div className='App'>
         <h1>Hello World</h1>
-        <Satu name = "Amario" country='Indonesia'/>
+        <Satu />
+    
       </div>
     )
   }
