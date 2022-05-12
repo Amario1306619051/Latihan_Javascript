@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Hitungan from "./component/angka"
+
 
 function App() {
   return (
     <div className="App">
       <h1>Hello Visitors</h1>
+      <Hitungan />
     </div>
   );
 }
