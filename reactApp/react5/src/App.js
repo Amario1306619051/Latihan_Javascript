@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="App">
         <Home />
-        <Props />
+        <Props name = {this.state.name} />
     </div>
   );
 }
