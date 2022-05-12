@@ -1,8 +1,8 @@
 import './App.css';
-import React, { Component } from 'react'
+import React from 'react'
 import satu from "./components/greetings"
 
-export class App extends Component {
+export class App extends React.Component {
   render() {
     return (
       <div className='App'>
