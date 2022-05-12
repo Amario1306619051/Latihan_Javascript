@@ -12,6 +12,14 @@ export default class manyincrements extends Component {
         this.setState({ count: this.state.count + 1})
     }
 
+    fiveIncrement = () => {
+        this.OneIncrement()
+        this.OneIncrement()
+        this.OneIncrement()
+        this.OneIncrement()
+        this.OneIncrement()
+    }
+
   render() {
     return (
       <div>
