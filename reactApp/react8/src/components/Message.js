@@ -7,10 +7,9 @@ class Message extends Component {
             message: 'Welcome Visitor'
         }
     }
-
+ 
     AlexanderArnold = () =>{
-        number = 0;
-
+        const number = 0;
         if (number % 2 == 0){
             this.setState({message: 'Thankyou for Subscribe'})
             number += 1
