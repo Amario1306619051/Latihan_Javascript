@@ -9,12 +9,19 @@ export default class randomnumber extends Component {
         }
     }
     
+    Acak = () =>{
+        this.setState(
+            {
+                number: Math.random()*100
+            }
+        )
+    }
 
   render() {
     return (
       <div>
         <h2> Generate Random number : {this.state.number}</h2>
-        <button>Generate me</button>
+        <button onClick={this.Acak}>Generate me</button>
       </div>
     )
   }
