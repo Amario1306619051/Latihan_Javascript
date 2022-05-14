@@ -8,10 +8,19 @@ export class tombol extends Component {
         message: 'Hello'
       }
     }
+
+    Berubah(){
+        this.setState(
+            {
+                mesaage : 'Goodbye'
+            }
+        )
+    }
   render() {
     return (
       <div>
-
+          <h2>{this.state.message}</h2>
+          <button onClick={this.Berubah.bind(this)}> Click me</button>
       </div>
     )
   }
