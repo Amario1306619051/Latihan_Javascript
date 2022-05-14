@@ -12,7 +12,7 @@ export class tombol extends Component {
     Berubah(){
         this.setState(
             {
-                mesaage : 'Goodbye'
+                message : 'Goodbye'
             }
         )
     }
