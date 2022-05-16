@@ -1,11 +1,20 @@
 import React, { Component } from 'react'
 
 export default class userGreeting extends Component {
-  render() {
-    return (
-      <div>
-          Hello Amario
-      </div>
-    )
-  }
+    constructor(props) {
+      super(props)
+    
+      this.state = {
+        isLoggedIn : true
+      }
+    }
+    render() {
+        if (this.state.isLoggedIn){
+            return(
+                <div>Hello Amario</div>
+            )
+        } else {
+            return<div>Hello Guest</div>
+        } 
+    }
 }
