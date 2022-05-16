@@ -6,7 +6,7 @@ class parent extends Component {
       super(props)
     
       this.state = {
-         parentName : 'parent'
+         parentName : 'Amario'
       }
 
       this.greetParent = this.greetParent.bind(this)

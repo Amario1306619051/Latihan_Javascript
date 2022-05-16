@@ -1,6 +1,6 @@
 import React from 'react'
 
-function child() {
+function child(props) {
   return (
     <div>
         <button onClick={props.gH}>Greet Parent</button>
