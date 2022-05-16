@@ -5,10 +5,10 @@ function Eksfis () {
     return (
     <div>
         {
-           names.map(name => <h2>name</h2>) 
+           names.map(name => <h2>{name}</h2>) 
         }
     </div>
-  )
+    ) 
 }
 
 export default Eksfis
