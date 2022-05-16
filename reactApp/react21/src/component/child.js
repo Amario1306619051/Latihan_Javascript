@@ -3,7 +3,7 @@ import React from 'react'
 function child() {
   return (
     <div>
-        <button>Greet Parent</button>
+        <button onClick={props.gH}>Greet Parent</button>
     </div>
   )
 }
