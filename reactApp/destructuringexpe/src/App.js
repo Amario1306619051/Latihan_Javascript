@@ -1,6 +1,6 @@
 import './App.css';
 
-Greet = ({name, country}) => {
+const Greet = ({name, country}) => {
   return(
     <div>
       <h3>Hello i am {name} from {country}</h3>
@@ -11,8 +11,8 @@ Greet = ({name, country}) => {
 function App() {
   return (
     <div className="App">
-      <Greet name="Amario" from = "Indonesia" />
-      <Greet name="Jimin" from = "Korea" />
+      <Greet name="Amario" country = "Indonesia" />
+      <Greet name="Jimin" country = "Korea" />
     </div>
   );
 }
