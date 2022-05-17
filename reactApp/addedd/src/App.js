@@ -11,12 +11,20 @@ class AlexanderArnold extends Component {
     }
   }
 
-  Increment (){
+  IncrementFive (){
     this.setState( x => (
       {
-        count: x + 1
+        count: x.count + 1
       }
     )
+    )
+  }
+
+  Increment (){
+    this.setState(
+      {
+        count: this.state.count + 1
+      }
     )
   }
   render() {
@@ -34,6 +42,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello Amario</h1>
+      <AlexanderArnold />
     </div>
   );
 }
