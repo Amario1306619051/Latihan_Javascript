@@ -19,18 +19,10 @@ class AlexanderArnold extends Component {
     )
     )
   }
-
-  Increment (){
-    this.setState(
-      {
-        count: this.state.count + 1
-      }
-    )
-  }
   render() {
     return (
       <div>
-        <button onClick={() => this.Increment}>you clicked this {this.state.count}</button>
+        <button onClick={() => this.IncrementFive()}>you clicked this {this.state.count}</button>
       </div>
     )
   }
