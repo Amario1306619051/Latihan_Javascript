@@ -30,7 +30,7 @@ class AlexanderArnold extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.Increment}>you clicked this {this.state.count}</button>
+        <button onClick={() => this.Increment}>you clicked this {this.state.count}</button>
       </div>
     )
   }
