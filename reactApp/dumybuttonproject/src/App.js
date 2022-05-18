@@ -29,11 +29,12 @@ class Logstat extends Component {
          <BolTombol name="Pridana" />
          <BolTombol name="Amario" />
          <BolTombol name="Muhlis" />
-         
        </div>
      }
      else{
-
+        message = <div>
+          <h2>Hello s</h2>
+        </div>
      }
      return(
        <div>{message}</div>
