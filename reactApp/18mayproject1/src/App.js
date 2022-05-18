@@ -1,5 +1,5 @@
 import './App.css';
-import Satu from './component/satu';
+import Tombol from './component/Tombol';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         Hello Visitors
       </header>
-      <Satu />
+      <Tombol />
 
     </div>
   );
