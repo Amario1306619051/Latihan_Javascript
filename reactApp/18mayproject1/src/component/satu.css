@@ -1,0 +1,13 @@
+.kemarau{
+    width: 300px;
+    margin : 30px auto 30px ;
+    padding: 20px;
+    background-color: rgb(255, 4, 4);
+  }
+  
+  .hujan{
+    width: 300px;
+    margin : 30px auto 30px ;
+    padding: 20px;
+    background-color: rgb(4, 79, 255);
+  }
