@@ -1,4 +1,5 @@
 import './App.css';
+import Tombol from './component/tombol';
 
 function App() {
   return (
@@ -6,6 +7,8 @@ function App() {
       <header className="App-header">
         Hello Visitors
       </header>
+      <h2>Tombol untuk ganti tema</h2>
+      <Tombol />
     </div>
   );
 }
