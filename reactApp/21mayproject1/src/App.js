@@ -1,6 +1,7 @@
 import './App.css';
 import Tulisan from './component/tulisan';
 import React from 'react'
+import Tombol from './component/tombol';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <header className="App-header">
         Hello Visitors
       </header>
-      <Tulisan />
+      <Tombol />
     </div>
   );
 }

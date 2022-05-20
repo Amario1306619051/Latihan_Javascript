@@ -1,14 +1,14 @@
-import React from 'react'
-import Tombol from './tombol'
+import React,{useContext} from 'react'
 import './tulisan.css'
+import {AlexanderArnold} from './tombol'
 
-const AlexanderArnold = React.createContext()
 
 function Tulisan() {
+
+    const JurgenKlopp = React.useContext(AlexanderArnold)
   return (
     <div>
-        <h2 className='panas'>Ini merupakan tema panas</h2>
-        <Tombol />
+        <h2 className={JurgenKlopp}>Ini merupakan tema {JurgenKlopp}</h2>
     </div>
   )
 }
