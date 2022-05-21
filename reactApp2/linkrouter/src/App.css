@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+.kepala{
+  padding: 16px 32px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

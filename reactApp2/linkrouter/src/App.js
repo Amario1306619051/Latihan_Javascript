@@ -7,7 +7,8 @@ function App() {
   return (
     <div className="App">
       <header className='kepala'>
-
+        <Link to='/'> Home</Link>
+        <Link to='/about'> about </Link>
       </header>
       <Routes>
         <Route path='/' element ={ <Home/> }/>
